@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+    font-family: "Josefin Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #0A3433;
+}
+
+.container-lg-1{
+    display: flex;
+    margin-left: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 65%;
+    gap: 50px;
+}
+
+.container-lg-1 img{
+  width: 250px;
+  height: 250px;
+  border-block: 3px solid #FF8A00;
+  margin-left: 100px;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  object-fit: cover;
+  object-position: right;
+}
+
+.container-lg-1 p{
+  margin-right: 20px;
+}
+
+.container-lg-2{
+    display: flex;
+    margin-left: 580px;
+    justify-content: space-evenly;
+    gap: 50px;
+    align-items: center;
+    max-width: 65%;
+}
+
+.container-lg-2 img{
+  width: 250px;
+  height: 250px;
+  border-block: 3px solid #FF8A00;
+  margin-right: 100px;
+  object-fit: cover;
+  object-position: right;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.container-lg-2 p{
+  margin-right: 20px;
+}
+
+.container-servicios{
+  background-color: #0A3433;
+  width: 100%;
+  padding: 5px;
+  color: white;
+}
+
+.navbar{
+    height: 80px;
+}
+
+.navbar-nav{
+    font-size: 20px;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.navbar-brand {
+    color: #FFFFFF; /* Blanco */
+    font-size: 30px;
+    margin-left: 20px;
+  }
+
+  .navbar .nav-link {
+    color: #FFFFFF; /* Blanco */
+  }
+
+  .navbar .nav-link:hover {
+    color: #D4AF37; /* Dorado al pasar el mouse */
+  }
+
+  .navbar .nav-link.disabled {
+    color: #B0B0B0; /* Gris claro para elementos deshabilitados */
+  }
+
+
+  .container-contactame{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    max-width: 100%;
+    margin-bottom: 50px;
+    margin-top: -100px;
+    align-items: center;
+  }
+
+  .container-contactame img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    border: 5px solid white;
+  }
+
+  .container-contactame form{
+    background-color: white;
+    -webkit-box-shadow: 10px 22px 23px -10px rgba(0,0,0,.3);
+    box-shadow: 10px 22px 23px -10px rgba(0,0,0,.3);
+    width: 500px;
+    height: 450px;
+    margin-top: 60px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
